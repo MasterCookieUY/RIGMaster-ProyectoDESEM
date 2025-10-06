@@ -98,7 +98,8 @@ nav a:hover {
 .slidermarcas {
     display: flex;
     gap: 48px;
-    animation: slider 120s linear infinite;
+    animation: slider 60s linear infinite
+
 }
 
 .slidermarcas img {
@@ -108,10 +109,9 @@ nav a:hover {
 
 .slidermarcas img:hover {
     filter: none;
-    transform: translateY(-5px);
 }
 
 @keyframes slider {
     from {transform: translateX(0);}
-    to {transform: translateX(-200%);}
+    to {transform: translateX(-100%);}
 }
