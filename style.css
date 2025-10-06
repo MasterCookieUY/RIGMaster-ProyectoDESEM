@@ -7,10 +7,14 @@
 body {
     background-color: #1a1a1a;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #EDEDED;
+    color: #ededed;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
     background-color: black;
     box-shadow: 0px 5px 15px black;
     padding: 10px 30px;
@@ -36,7 +40,7 @@ nav ul {
 }
 
 nav a {
-    color: #EDEDED;
+    color: #ededed;
     text-decoration: none;
 }
 
@@ -94,14 +98,12 @@ nav a:hover {
 .marcas {
     background-color: #121212;
     overflow: hidden;
-    height: 105px;
 }
 
 .slidermarcas {
     display: flex;
     gap: 48px;
     animation: slider 60s linear infinite
-
 }
 
 .slidermarcas img {
@@ -122,6 +124,7 @@ nav a:hover {
     padding-top: 135px;
     padding-left: 100px;
     padding-right: 100px;
+    background: linear-gradient(180deg, #121212 0%, #420000 400%);
 }
 
 .guiacomponentes h1{
@@ -139,9 +142,22 @@ nav a:hover {
     width: 5%;              
 }
 
+.carousel .carousel-item{
+  transition: transform .5s ease-in-out;
+}
+
 .textocomponente { 
-    width: 45%; 
+    width: 40%;
     color: #ededed; 
+}
+
+.textocomponente h2 {
+    color: #ffffff;
+    text-shadow: 0 0 40px #ff3b3b77;
+}
+
+.textocomponente p {
+    color: #ededed;
 }
 
 .yotroscomponentes {
