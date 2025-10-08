@@ -1,7 +1,7 @@
 function muestra_oculta(id) {
     let div = document.getElementById(id);
     if (div.style.display == "none"){ 
-      div.style.display = "flex";
+      div.style.display = "block";
     } 
     else {
       div.style.display = "none";
