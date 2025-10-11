@@ -7,3 +7,4 @@ function muestra_oculta(id) {
       div.style.display = "none";
     }
 }
+// esta función es dada por el curso
