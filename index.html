@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- HEADER -->
+
     <header>
         <div class="elementosheader">
             <a href="index.html" class="logorigmaster">
@@ -16,20 +16,19 @@
             </a>
             <nav>
                 <ul>
-                    <li><a href="">Constructor</a></li>
-                    <li><a href="">Guía de componentes</a></li>
-                    <li><a href="">Tablas de clasificación</a></li>
-                    <li><a href="">Benchmarks</a></li>
-                    <li><a href="">Foro</a></li>
+                    <li><a href="#">Constructor</a></li>
+                    <li><a href="#guiacomponentes">Guía de componentes</a></li>
+                    <li><a href="#tablaclasificacionlink">Tablas de clasificación</a></li>
+                    <li><a href="#comoarmopc">¿Cómo armo mi PC?</a></li>
+                    <li><a class="verde" href="#sostenibilidad">Sostenibilidad</a></li>
+                    <li><a href="#foro">Foro</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <!-- sección principal!!! -->
     <div class="seccionmain">
         
-        <!--IZQUIERDA-->
         <div class="seccionmainizquierda">
             <h1>Armar tu setup gamer</h1>
             <h1><span>nunca fue tan</span>
@@ -37,26 +36,24 @@
                     <span class="palabrasrotador">
                         <span>fácil</span>
                         <span>rápido</span>
-                        <span>dinámico</span>
                         <span>divertido</span>
+                        <span class="verde">sostenible</span>
                         <span>fácil</span>
                     </span>
                 </span>
             </h1>
-            <p>Diseñá según tus necesidades y presupuesto y compartí tu build.</p>
-            <a href=""class="botonconstruir">Empezar la construcción</a>
+            <p>Diseñá según tus necesidades y presupuesto y compartí tu build.<br>Optá por usado/recertificado, reciclando componentes y alargando su vida útil.</p>
+            <a href="#"class="boton" id="botonconstruir"><i class="fa-solid fa-wrench" style="color: #000000;"></i> EMPEZAR LA CONSTRUCCIÓN</a>
         </div>
         
-        <!--DERECHA-->
         <div class="seccionmainderecha">
             <img src="imagenes/partespc/gabinete2.png" alt="Gabinete" width="600px">
         </div>
-
     </div>
 
-    <div class="marcas">
-            <div class="slidermarcas">
-                <!-- Bloque 1 -->
+    <div class="container-fluid marcas">
+            <div class="slidermarcas container-fluid">
+
                 <img src="imagenes/logosiconos/amd.png" alt="Logo AMD">
                 <img src="imagenes/logosiconos/intel.png" alt="Logo Intel">
                 <img src="imagenes/logosiconos/nvidia.png" alt="Logo Nvidia">
@@ -71,7 +68,7 @@
                 <img src="imagenes/logosiconos/lianli.png" alt="Logo LianLi">
                 <img src="imagenes/logosiconos/bequiet.png" alt="Logo BeQuiet">
                 <img src="imagenes/logosiconos/thermaltake.png" alt="Logo Thermaltake">
-                <!-- Bloque 2 -->
+
                 <img src="imagenes/logosiconos/amd.png" alt="Logo AMD 2">
                 <img src="imagenes/logosiconos/intel.png" alt="Logo Intel 2">
                 <img src="imagenes/logosiconos/nvidia.png" alt="Logo Nvidia 2">
@@ -90,9 +87,9 @@
         </div>
 
        
-    <div class="guiacomponentes">
+    <div class="guiacomponentes" id="guiacomponentes">
         <h1>Guía de componentes</h1>
-        <h2>Entendé como funciona cada parte de tu PC.</h2>
+        <h2>Entendé como funciona cada parte de tu PC y cómo elegirlas en el mercado de segunda mano</h2>
 
         <div id="carruselcomponentes" class="carousel slide" data-bs-ride="false">
         <div class="carousel-inner">
@@ -104,12 +101,13 @@
                 <p class="subtitulocomponente">El cerebro de tu PC. Responsable de ejecutar instrucciones, realizar cálculos y procesar datos.</p>
                 <div id="cpuleermas" style="display: none;">
                     <p>El procesador o CPU (<span class="eningles">Central Processing Unit</span>) coordina todas las operaciones de tu PC.</p>
-                    <p>Están compuestos por <span class="textocomponentedestacado">núcleos</span>, cuya cantidad define cuántas tareas distintas pueden ejecutarse al mismo tiempo.
-                    <p>Acompañándolos, están los <span class="textocomponentedestacado">hilos</span> o <span class="textocomponentedestacado">subprocesos</span> <span class="textocomponentedestacado eningles">(threads)</span>, que dividen esas tareas en partes para aprovechar mejor los recursos.</p>
-                    <p>Otro factor importante en el CPU es su <span class="textocomponentedestacado">frecuencia</span>, que mide en GHz cuántos datos pueden procesarse por segundo.</p>
-                    <p>Si querés jugar, uno de los puntos más importantes es la cantidad de <span class="textocomponentedestacado">memoria caché</span>: una memoria pequeña y muy rápida que almacena datos usados frecuentemente para no tener que recurrir constantemente a la RAM más lenta. Normalmente, mientras más caché, menos latencia, más <span class="eningles">FPS</span> y menos "tirones", conocidos como <span class="eningles"> 1% lows</span>.</p>
+                    <p>Están compuestos por <span class="textodestacado">núcleos</span>, cuya cantidad define cuántas tareas distintas pueden ejecutarse al mismo tiempo.
+                    <p>Acompañándolos, están los <span class="textodestacado">hilos</span> o <span class="textodestacado">subprocesos</span> <span class="textodestacado eningles">(threads)</span>, que dividen esas tareas en partes para aprovechar mejor los recursos.</p>
+                    <p>Otro factor importante en el CPU es su <span class="textodestacado">frecuencia</span>, que mide en GHz cuántos datos pueden procesarse por segundo.</p>
+                    <p>Si querés jugar, uno de los puntos más importantes es la cantidad de <span class="textodestacado">memoria caché</span>: una memoria pequeña y muy rápida que almacena datos usados frecuentemente para no tener que recurrir constantemente a la RAM más lenta. Normalmente, mientras más caché, menos latencia, más <span class="eningles">FPS</span> y menos "tirones", conocidos como <span class="eningles"> 1% lows</span>.</p>
                     <p>Como hoy en día las <span class="eningles">GPUs</span> hacen la mayoría del trabajo duro, es importante que tu CPU tenga una caché rapida que permita obtener datos tan rápido como se demandan.</p>
-                    <p>Saber el <span class="textocomponentedestacado">TDP (<span class="eningles">Thermal Design Power</span>)</span> te ayuda a determinar la refrigeración necesaria para evitar el sobrecalentamiento.</p>
+                    <p>Saber el <span class="textodestacado">TDP (<span class="eningles">Thermal Design Power</span>)</span> te ayuda a determinar la refrigeración necesaria para evitar el sobrecalentamiento.</p>
+                    <p class="tipusado"><i class="fa-solid fa-leaf" style="color: #00ff00;"></i> Modelos usados o recertificados de 2-3 generaciones atrás aún tienen muy buen rendimiento. Al comprar, asegurate de corroborar su historial de uso y <span class="eningles">overclocking</span>.</p>
                 </div>
                 <button class="botonleermas" onclick="muestra_oculta('cpuleermas')">Leer más</button>
                 </div>
@@ -124,10 +122,11 @@
                 <p class="subtitulocomponente">Diseñada para la creación y renderizado de imágenes, videos y animaciones computando miles de instrucciones distintas al mismo tiempo.</p>
                 <div id="gpuleermas" style="display: none;">
                     <p>La GPU <span class="eningles">(Graphics Processing Unit)</span> realiza miles de operaciones simultáneas, esencial en tareas como juegos, edición de vídeo o diseño 3D. A diferencia del CPU, que se especializa en instrucciones ordenadas, la GPU destaca en cálculos paralelos, procesando millones de píxeles y vértices a la vez.</p>
-                    <p>Su potencia depende de la cantidad de <span class="textocomponentedestacado">núcleos</span>, como los llamados <span class="eningles">CUDA</span>, <span class="eningles">Stream Processors</span> o similares. La cantidad de núcleos y sus frecuencias, medidas en GHz, determinan la velocidad con la que ejecuta esas tareas.</p>
-                    <p>La <span class="textocomponentedestacado">VRAM</span> es la memoria dedicada de la tarjeta gráfica. En ella se guardan texturas, sombras, geometría y otros datos visuales de los juegos o programas. Cuanta más VRAM y mejor ancho de banda <span class="eningles">(GDDR6, GDDR6X, etc)</span> tenga, mejor podrá manejar resoluciones altas y texturas más detalladas. Los juegos competitivos no utilizan más de 4GB o 6GB de VRAM, pero títulos con gráficos más exigentes utilizan tranquilamente 8GB o más.</p>
-                    <p>Hoy en día los mayores fabricantes de <span class="eningles">chipsets</span> de GPUs son <span class="gpunvidiatexto">NVIDIA</span> y <span class="textocomponentedestacado">AMD</span>, quienes han desarrollado tecnologías para mejorar rendimiento en juegos como <span class="gpunvidiatexto eningles">DLSS</span>, exclusivo de la serie de gráficas <span class="eningles">RTX</span>, y <span class="textocomponentedestacado eningles">FSR</span>, habilitado para cualquier gráfica.</p>
+                    <p>Su potencia depende de la cantidad de <span class="textodestacado">núcleos</span>, como los llamados <span class="eningles">CUDA</span>, <span class="eningles">Stream Processors</span> o similares. La cantidad de núcleos y sus frecuencias, medidas en GHz, determinan la velocidad con la que ejecuta esas tareas.</p>
+                    <p>La <span class="textodestacado">VRAM</span> es la memoria dedicada de la tarjeta gráfica. En ella se guardan texturas, sombras, geometría y otros datos visuales de los juegos o programas. Cuanta más VRAM y mejor ancho de banda <span class="eningles">(GDDR6, GDDR6X, etc)</span> tenga, mejor podrá manejar resoluciones altas y texturas más detalladas. Los juegos competitivos no utilizan más de 4GB o 6GB de VRAM, pero títulos con gráficos más exigentes utilizan tranquilamente 8GB o más.</p>
+                    <p>Hoy en día los mayores fabricantes de <span class="eningles">chipsets</span> de GPUs son <span class="gpunvidiatexto">NVIDIA</span> y <span class="textodestacado">AMD</span>, quienes han desarrollado tecnologías para mejorar rendimiento en juegos como <span class="gpunvidiatexto eningles">DLSS</span>, exclusivo de la serie de gráficas <span class="eningles">RTX</span>, y <span class="textodestacado eningles">FSR</span>, habilitado para cualquier gráfica.</p>
                     <p>Una misma GPU puede venir fabricada por distintas ensambladoras, como <span class="eningles">MSI</span>, <span class="eningles">ASUS</span>, <span class="eningles">Gigabyte</span>, entre otras. Todas usan el mismo chip gráfico del fabricante, pero difieren en calidad de materiales, refrigeración o cantidad de ventiladores. Esto puede influir en la temperatura, ruido o consumo y, a veces, en el rendimiento bajo carga prolongada. En este ámbito, elegí la que se adapte mejor a tu presupuesto y estética de tu PC.</p>
+                    <p class="tipusado"><i class="fa-solid fa-leaf" style="color: #00ff00;"></i> Comprar tu GPU de segunda mano ayuda muchísimo a tu presupuesto y reduce desechos electrónicos. Corroborá sus horas de uso, mantenimientos y si fue utilizada para minería de criptomonedas, lo cual degrada mucho sus componentes.</p>
                 </div>
                 <button class="botonleermas" onclick="muestra_oculta('gpuleermas')">Leer más</button>
                 </div>
@@ -142,11 +141,12 @@
                 <p class="subtitulocomponente">Almacena datos temporalmente que el CPU necesita inmediatamente, para otorgar un acceso rápido a ellos.</p>
                 <div id="ramleermas" style="display: none;">
                     <p>La RAM (<span class="eningles">Random Access Memory</span>) se caracteriza por su alta velocidad y su retención de datos de corto plazo. Accede a datos MILES de veces más rápido que un disco duro, y es necesaria para el rendimiento general del sistema y la funcionalidad de los programas abiertos.</p>
-                    <p>El rendimiento de estas memorias está definido por su <span class="textocomponentedestacado">frecuencia</span> y el <span class="textocomponentedestacado">tipo de memoria</span>. La frecuencia se mide en MHz, e indica la velocidad de transferencia de datos. Cuanto mayor sea, más rápido puede comunicarse con el CPU. Los tipos de memoria más comunes a día de hoy son <span class="eningles">DDR4</span> y <span class="eningles">DDR5</span>. Esta última ofrece frecuencias mucho más altas, con latencias un poco mayores.</p> 
+                    <p>El rendimiento de estas memorias está definido por su <span class="textodestacado">frecuencia</span> y el <span class="textodestacado">tipo de memoria</span>. La frecuencia se mide en MHz, e indica la velocidad de transferencia de datos. Cuanto mayor sea, más rápido puede comunicarse con el CPU. Los tipos de memoria más comunes a día de hoy son <span class="eningles">DDR4</span> y <span class="eningles">DDR5</span>. Esta última ofrece frecuencias mucho más altas, con latencias un poco mayores.</p> 
                     <p>El tipo de memoria está ligado a su compatibilidad tanto con la Motherboard como el CPU, por lo que no puede emparejarse cualquier RAM con cualquier PC.</p>
-                    <p>Un factor a tomar en cuenta al elegir ram, además de la compatibilidad y rendimiento, es la <span class="textocomponentedestacado">capacidad</span>, que determina la cantidad máxima de datos que pueden almacenarse, e implica la cantidad de procesos que pueden estar abiertos al mismo tiempo. Actualmente <span class="textocomponentedestacado">16GB</span> se consideran el estándar actual para juegos y productividad, siendo 8GB el mínimo recomendado para uso general suave.</p>
-                    <p>Un detalle interesante normalmente ignorado es la <span class="textocomponentedestacado">latencia CAS</span>, un valor que indica cuánto tarda en procesar un comando. Se expresa con un número como <span class="eningles">CL16</span> o <span class="eningles">CL36</span>. Mientras menor sea el número, más rápido es el módulo.</p>
-                    <p>Una recomendación importante es utilizar <span class="textocomponentedestacado">dual channel</span>, que consiste en utilizar dos módulos de ram idénticos, lo que hace que trabajen en paralelo duplicando el ancho de banda y mejore considerablemente el rendimiento.</p>
+                    <p>Un factor a tomar en cuenta al elegir ram, además de la compatibilidad y rendimiento, es la <span class="textodestacado">capacidad</span>, que determina la cantidad máxima de datos que pueden almacenarse, e implica la cantidad de procesos que pueden estar abiertos al mismo tiempo. Actualmente <span class="textodestacado">16GB</span> se consideran el estándar actual para juegos y productividad, siendo 8GB el mínimo recomendado para uso general suave.</p>
+                    <p>Un detalle interesante normalmente ignorado es la <span class="textodestacado">latencia CAS</span>, un valor que indica cuánto tarda en procesar un comando. Se expresa con un número como <span class="eningles">CL16</span> o <span class="eningles">CL36</span>. Mientras menor sea el número, más rápido es el módulo.</p>
+                    <p>Una recomendación importante es utilizar <span class="textodestacado">dual channel</span>, que consiste en utilizar dos módulos de ram idénticos, lo que hace que trabajen en paralelo duplicando el ancho de banda y mejore considerablemente el rendimiento.</p>
+                    <p class="tipusado"><i class="fa-solid fa-leaf" style="color: #00ff00;"></i> Las RAMs DDR4 usadas o recertificadas tienen una buena relación rendimiento/precio con un impacto ambiental bajo.</p>
                 </div>
                 <button class="botonleermas" onclick="muestra_oculta('ramleermas')">Leer más</button>
                 </div>
@@ -160,13 +160,14 @@
                 <h2>Placa Madre (Motherboard)</h2>
                 <p class="subtitulocomponente">Conecta y coordina todos los componentes internos de tu PC para que puedan funcionar en conjunto. También regula voltajes a cada componente.</p>
                 <div id="moboleermas" style="display: none;">
-                    <p>La <span class="eningles">motherboard</span> comunica el CPU, las RAMs la GPU, los discos y todos los periféricos conectados a través de su <span class="textocomponentedestacado">Chipset</span>, que determina las capacidades del sistema, compatibilidad, cantidad de puertos, y en algunos casos, opciones de <span class="eningles">overclocking</span>.</p>
-                    <p>Otro de sus roles es la <span class="textocomponentedestacado">distribución de energía</span>, regulando los voltajes de cada componente mediante sus <span class="textocomponentedestacado">VRMs (<span class="eningles">Voltage Regulator Modules</span>)</span>. Motherboards de mejor gama tienen mejores VRMs, que prologan la vida de procesadores exigentes bajo carga.</p>
-                    <p>Las motherboards cuentan con <span class="textocomponentedestacado">ranuras de expansión</span>, como las <span class="eningles">PCI Express (PCIe)</span>, donde se instalan las GPU y tarjetas de red o de sonido. También poseen slots <span class="eningles">M.2</span> y/o <span class="eningles">SATA</span>, donde se instalan las unidades de almacenamiento.</p>
-                    <p>El tamaño de la placa, denominado <span class="textocomponentedestacado">factor de forma</span>, varía según un estándar llamado <span class="textocomponentedestacado">ATX</span>, y se debe tomar en cuenta en relación al gabinete. Los factores de forma existentes son: E-ATX, ATX, Micro-ATX y Mini-ATX.</p>
-                    <p>Al elegir una motherboard, la <span class="textocomponentedestacado">compatibilidad</span> es lo primero a tomarse en cuenta. Cada CPU utiliza un <span class="eningles">socket</span> (zócalo) específico de su generación, y solo funcionará con una motherboard que comparta ese mismo socket y chipset. Además, se debe elegir una motherboard de acuerdo al tipo de memoria RAM, sea DDR5, DDR4 o anteriores.</p>
-                    <p>Hay distintas <span class="textocomponentedestacado">gamas</span> de motherboards, que varían en cantidad de ranuras de expansión, puertos, calidad de VRMs, slots para RAMs, disipación del chipset, estética y opciones de overclocking (solo en gama alta).</p>        
+                    <p>La <span class="eningles">motherboard</span> comunica el CPU, las RAMs la GPU, los discos y todos los periféricos conectados a través de su <span class="textodestacado">Chipset</span>, que determina las capacidades del sistema, compatibilidad, cantidad de puertos, y en algunos casos, opciones de <span class="eningles">overclocking</span>.</p>
+                    <p>Otro de sus roles es la <span class="textodestacado">distribución de energía</span>, regulando los voltajes de cada componente mediante sus <span class="textodestacado">VRMs (<span class="eningles">Voltage Regulator Modules</span>)</span>. Motherboards de mejor gama tienen mejores VRMs, que prologan la vida de procesadores exigentes bajo carga.</p>
+                    <p>Las motherboards cuentan con <span class="textodestacado">ranuras de expansión</span>, como las <span class="eningles">PCI Express (PCIe)</span>, donde se instalan las GPU y tarjetas de red o de sonido. También poseen slots <span class="eningles">M.2</span> y/o <span class="eningles">SATA</span>, donde se instalan las unidades de almacenamiento.</p>
+                    <p>El tamaño de la placa, denominado <span class="textodestacado">factor de forma</span>, varía según un estándar llamado <span class="textodestacado">ATX</span>, y se debe tomar en cuenta en relación al gabinete. Los factores de forma existentes son: E-ATX, ATX, Micro-ATX y Mini-ATX.</p>
+                    <p>Al elegir una motherboard, la <span class="textodestacado">compatibilidad</span> es lo primero a tomarse en cuenta. Cada CPU utiliza un <span class="eningles">socket</span> (zócalo) específico de su generación, y solo funcionará con una motherboard que comparta ese mismo socket y chipset. Además, se debe elegir una motherboard de acuerdo al tipo de memoria RAM, sea DDR5, DDR4 o anteriores.</p>
+                    <p>Hay distintas <span class="textodestacado">gamas</span> de motherboards, que varían en cantidad de ranuras de expansión, puertos, calidad de VRMs, slots para RAMs, disipación del chipset, estética y opciones de overclocking (solo en gama alta).</p>        
                     <p>Las gamas para CPUs Intel son: H (gama de entrada), B (gama media) y Z (gama alta). Para CPUs AMD son: A (gama de entrada), B (gama media) y X (gama alta). Normalmente, el usuario normal no utiliza nunca las capacidades de una motherboard Z o X, además de la estética y cantidad de puertos. Elegí la que se ajuste más a tu presupuesto y necesidades.</p>
+                    <p class="tipusado"><i class="fa-solid fa-leaf" style="color: #00ff00;"></i> Comprar una motherboard de gama media o alta usada o recertificada es una muy buena idea si se verifica el buen estado de los pines del socket y VRMs.</p>
                 </div>
                 <button class="botonleermas" onclick="muestra_oculta('moboleermas')">Leer más</button>
                 </div>
@@ -180,13 +181,14 @@
                 <h2>Unidad de almacenamiento</h2>
                 <p class="subtitulocomponente">Guarda o accede a tu información escribiendo y leyendo datos. Una unidad rápida (como un <span class="textossd">SSD</span>) es importante para reducir tiempos de carga del sistema y de texturas al jugar. </p>
                 <div id="nvmeleermas" style="display: none;">
-                    <p>Las unidades de almacenamiento se encargan de <span class="textocomponentedestacado">leer y escribir información</span>, sea del sistema operativo, de juegos o de documentos. Actualmente existen dos tecnologías principales: los <span class="textocomponentedestacado eningles">HDD</span> <span class="textocomponentedestacado">(discos duros)</span>  y los <span class="textocomponentedestacado eningles">SSD</span> <span class="textocomponentedestacado">(unidades de estado sólido)</span>.</p>
-                    <p>Los HDD almacenan datos en <span class="textocomponentedestacado">discos magnéticos giratorios</span>. Son más lentos pero ofrecen gran capacidad por menos precio que un SSD. Ideales para guardar archivos pesados y copias de seguridad.</p>
-                    <p>Los SSD, en cambio, utilizan <span class="textocomponentedestacado">chips de memoria flash</span>, eliminando la parte mecánica. Son muchísimo más rápidos, silenciosos y resistentes a golpes. Esto significa tiempos de carga casi instantáneos, arranques del sistema operativo mucho más rápidos y menos retrasos en juegos con mucha carga de datos constante (como los de mundo abierto) y programas exigentes.</p>
-                    <p>Existen <span class="textocomponentedestacado">dos tipos</span> de SSD:</p>
-                    <p>Los SSD <span class="textocomponentedestacado">SATA</span> se conectan a un puerto del mismo nombre. Son más económicos y pueden conectarse a la mayoría de motherboards (todas las motherboards desde hace 20 años tienen conectores SATA), y sus velocidades rondan los 500MB/s.</p>
-                    <p>Los SSD <span class="textocomponentedestacado">M.2 NVMe</span> son los más rápidos, con velocidades que se miden en GB/s. Cada vez son más accesibles, y son ideales para tareas que manejan grandes volúmenes de datos. Se conectan via PCI Express en puertos designados específicamente para ellos.</p>
-                    <p>Es importante tener en cuenta que los SSD M.2 NVMe varían su velocidad en relación a su <span class="textocomponentedestacado">generación de PCI Express</span>, y aunque no cambian de forma por eso, Un NVMe PCIe 5.0 limitará su rendimiento a PCIe 4.0 o inferior si la motherboard no soporta esa generación.</p>
+                    <p>Las unidades de almacenamiento se encargan de <span class="textodestacado">leer y escribir información</span>, sea del sistema operativo, de juegos o de documentos. Actualmente existen dos tecnologías principales: los <span class="textodestacado eningles">HDD</span> <span class="textodestacado">(discos duros)</span>  y los <span class="textodestacado eningles">SSD</span> <span class="textodestacado">(unidades de estado sólido)</span>.</p>
+                    <p>Los HDD almacenan datos en <span class="textodestacado">discos magnéticos giratorios</span>. Son más lentos pero ofrecen gran capacidad por menos precio que un SSD. Ideales para guardar archivos pesados y copias de seguridad.</p>
+                    <p>Los SSD, en cambio, utilizan <span class="textodestacado">chips de memoria flash</span>, eliminando la parte mecánica. Son muchísimo más rápidos, silenciosos y resistentes a golpes. Esto significa tiempos de carga casi instantáneos, arranques del sistema operativo mucho más rápidos y menos retrasos en juegos con mucha carga de datos constante (como los de mundo abierto) y programas exigentes.</p>
+                    <p>Existen <span class="textodestacado">dos tipos</span> de SSD:</p>
+                    <p>Los SSD <span class="textodestacado">SATA</span> se conectan a un puerto del mismo nombre. Son más económicos y pueden conectarse a la mayoría de motherboards (todas las motherboards desde hace 20 años tienen conectores SATA), y sus velocidades rondan los 500MB/s.</p>
+                    <p>Los SSD <span class="textodestacado">M.2 NVMe</span> son los más rápidos, con velocidades que se miden en GB/s. Cada vez son más accesibles, y son ideales para tareas que manejan grandes volúmenes de datos. Se conectan via PCI Express en puertos designados específicamente para ellos.</p>
+                    <p>Es importante tener en cuenta que los SSD M.2 NVMe varían su velocidad en relación a su <span class="textodestacado">generación de PCI Express</span>, y aunque no cambian de forma por eso, Un NVMe PCIe 5.0 limitará su rendimiento a PCIe 4.0 o inferior si la motherboard no soporta esa generación.</p>
+                    <p class="tipusado"><i class="fa-solid fa-leaf" style="color: #00ff00;"></i> Aunque es recomendable comprar un SSD nuevo, puede elegirse uno usado si tiene un porcentaje alto de vida útil restante, que puede comprobarse mediante programas. Reciclar HDDs es una práctica muy común y económica, con un impacto ambiental positivo.</p>
                 </div>
                 <button class="botonleermas" onclick="muestra_oculta('nvmeleermas')">Leer más</button>
                 </div>
@@ -201,11 +203,12 @@
                 <p class="subtitulocomponente">Convierte la corriente alterna de alto voltaje de la red eléctrica en corriente continua regulada que necesita tu PC para funcionar de forma segura y estable.</p>
                 <div id="psuleermas" style="display: none;">
                     <p>La fuente de poder distribuye la energía necesaria a los componentes de tu PC, por lo que elegir una con la potencia adecuada al consumo de los componentes es muy importante</p>
-                    <p>La <span class="textocomponentedestacado">potencia</span> de la fuente se mide en watts (W), pero su calidad no solo depende de eso. Las fuentes de buena calidad también proveen de <span class="textocomponentedestacado">protección</span> contra sobretensión, subtensión, cortocircuito y sobrecorriente, que podrían dañar permanentemente los componentes.</p>
-                    <p>Cuando se trata de garantizar la fiabilidad de una fuente, la iniciativa que más destaca es <span class="textocomponentedestacado eningles">80 PLUS</span>, que corrobora que las fuentes de alimentación tengan una eficiencia mínima del 80% al 20%, 50% y 100% de su carga nominal.</p>
-                    <p>Los sellos de 80 PLUS son <span class="eningles">White, Bronze, Silver, Gold, Platinum</span> y <span class="eningles">Titanium</span>. Es importantísimo <span class="textocomponentedestacado">elegir una fuente certificada</span> a la hora de armar una PC para juegos o diseño.</p>
-                    <p>Todas las fuentes modernas siguen un estandar llamado <span class="textocomponentedestacado">ATX</span>, que define su tamaño, los puntos de instalación y las conexiones. Este estándar se va actualizando, y eso implica mejoras en eficiencia, conectividad y transmisión de energía.</p>
-                    <p>Para mayor comodidad y estética, se puede optar por <span class="textocomponentedestacado">fuentes modulares</span>, en la que solo se conectan los cables necesarios para cada componente, sin cables de sobra. Las fuentes no modulares son más económicas, con la condición de que todos los cables salen por un agujero, incluyendo varios que probablemente no se utilicen por el usuario.</p>
+                    <p>La <span class="textodestacado">potencia</span> de la fuente se mide en watts (W), pero su calidad no solo depende de eso. Las fuentes de buena calidad también proveen de <span class="textodestacado">protección</span> contra sobretensión, subtensión, cortocircuito y sobrecorriente, que podrían dañar permanentemente los componentes.</p>
+                    <p>Cuando se trata de garantizar la fiabilidad de una fuente, la iniciativa que más destaca es <span class="textodestacado eningles">80 PLUS</span>, que corrobora que las fuentes de alimentación tengan una eficiencia mínima del 80% al 20%, 50% y 100% de su carga nominal.</p>
+                    <p>Los sellos de 80 PLUS son <span class="eningles">White, Bronze, Silver, Gold, Platinum</span> y <span class="eningles">Titanium</span>. Es importantísimo <span class="textodestacado">elegir una fuente certificada</span> a la hora de armar una PC para juegos o diseño.</p>
+                    <p>Todas las fuentes modernas siguen un estandar llamado <span class="textodestacado">ATX</span>, que define su tamaño, los puntos de instalación y las conexiones. Este estándar se va actualizando, y eso implica mejoras en eficiencia, conectividad y transmisión de energía.</p>
+                    <p>Para mayor comodidad y estética, se puede optar por <span class="textodestacado">fuentes modulares</span>, en la que solo se conectan los cables necesarios para cada componente, sin cables de sobra. Las fuentes no modulares son más económicas, con la condición de que todos los cables salen por un agujero, incluyendo varios que probablemente no se utilicen por el usuario.</p>
+                    <p class="tipusado"><i class="fa-solid fa-leaf" style="color: #00ff00;"></i> Las fuentes pueden durar años. Una fuente usada o recertificada de marca confiable 80 PLUS Gold o superior brinda un excelente rendimiento, ahorrándote dinero y evitando su descarte.</p>
                 </div>
                 <button class="botonleermas" onclick="muestra_oculta('psuleermas')">Leer más</button>
                 </div>
@@ -220,11 +223,12 @@
                 <p class="subtitulocomponente">Disipa el calor producido por el CPU <span class="yotroscomponentes">(y otros componentes)</span> y lo mantiene en límites de temperatura seguros.</p>
                 <div id="aioleermas" style="display: none;">
                     <p>La refrigeración es vital para tu PC, ya que previene el sobrecalentamiento de componentes, lo cual puede causar una caída del rendimiento, <span class="eningles">crasheos</span>, reinicios y daños permanentes en el hardware.</p>
-                    <p>Existen dos sistemas principales de refrigeración: por <span class="textocomponentedestacado">aire</span> y <span class="textocomponentedestacado">líquida</span>.</p>
-                    <p>La <span class="textocomponentedestacado">refrigeración por aire</span> utiliza un <span class="textocomponentedestacado">bloque metálico <span class="eningles">(heatsink)</span></span> y uno o más ventiladores para extraer el calor del procesador y expulsarlo fuera del gabinete. Es el método más común, económico y fácil de mantener. Los mejores disipadores por aire tienen aletas de aluminio, tubos de cobre y ventiladores con presión estática alta.</p>
-                    <p>La <span class="textocomponentedestacado">refrigeración líquida</span> emplea un circuito cerrado que transporta el calor mediante un líquido refrigerante hacia un <span class="textocomponentedestacado">radiador</span>, donde se disipa con ventiladores. Los sistemas <span class="textocomponentedestacado eningles">AIO (All-in-One)</span> son los más comunes ya que tienen muy buen rendimiento y son fáciles de instalar, además de que se ven mejor que una por aire. Hay distintos tamaños de radiadores como de ventiladores, y se debe verificar que el gabinete tenga el tamaño necesario para su colocación.</p>
-                    <p>Más allá del disipador, es importante el <span class="textocomponentedestacado">flujo de aire del gabinete</span>. No importa qué tan buena sea la refrigeración del CPU si el calor no se expulsa al exterior. Se necesita mantener una correcta entrada y salida de aire para mejorar la eficiencia térmica general.</p>
-                    <p>Un dato no menor es que se debe elegir una <span class="textocomponentedestacado">pasta térmica</span> de calidad. Es indispensable, y se coloca entre el procesador y la bomba del AIO o el heatsink.</p>
+                    <p>Existen dos sistemas principales de refrigeración: por <span class="textodestacado">aire</span> y <span class="textodestacado">líquida</span>.</p>
+                    <p>La <span class="textodestacado">refrigeración por aire</span> utiliza un <span class="textodestacado">bloque metálico <span class="eningles">(heatsink)</span></span> y uno o más ventiladores para extraer el calor del procesador y expulsarlo fuera del gabinete. Es el método más común, económico y fácil de mantener. Los mejores disipadores por aire tienen aletas de aluminio, tubos de cobre y ventiladores con presión estática alta.</p>
+                    <p>La <span class="textodestacado">refrigeración líquida</span> emplea un circuito cerrado que transporta el calor mediante un líquido refrigerante hacia un <span class="textodestacado">radiador</span>, donde se disipa con ventiladores. Los sistemas <span class="textodestacado eningles">AIO (All-in-One)</span> son los más comunes ya que tienen muy buen rendimiento y son fáciles de instalar, además de que se ven mejor que una por aire. Hay distintos tamaños de radiadores como de ventiladores, y se debe verificar que el gabinete tenga el tamaño necesario para su colocación.</p>
+                    <p>Más allá del disipador, es importante el <span class="textodestacado">flujo de aire del gabinete</span>. No importa qué tan buena sea la refrigeración del CPU si el calor no se expulsa al exterior. Se necesita mantener una correcta entrada y salida de aire para mejorar la eficiencia térmica general.</p>
+                    <p>Un dato no menor es que se debe elegir una <span class="textodestacado">pasta térmica</span> de calidad. Es indispensable, y se coloca entre el procesador y la bomba del AIO o el heatsink.</p>
+                    <p class="tipusado"><i class="fa-solid fa-leaf" style="color: #00ff00;"></i> Un AIO o refrigeración por aire usada o recertificada puede ser una buena opción si no presentan fugas o defectos/roturas en los ventiladores o en el radiador/heatsink.</p>
                 </div>
                 <button class="botonleermas" onclick="muestra_oculta('aioleermas')">Leer más</button>
                 </div>
@@ -240,12 +244,13 @@
                 <div id="gabineteleermas" style="display: none;">
                     <p>El gabinete cumple una función tanto estructural como térmica, sosteniendo todos los componentes. Su tamaño se debe elegir principalmente en relación a la motherboard.</p>
                     <p>El primer criterio de tamaño del gabinete es el siguiente:</p>
-                    <p><span class="textocomponentedestacado">Full tower</span>: para PCs (realmente) grandes, con muchos ventiladores. Generalmente usado para montar sistemas de refrigreración líquida personalizados.</p>
-                    <p><span class="textocomponentedestacado">Mid tower</span>: el formato más común. Tamaño y tamaño "normal".</p>
-                    <p><span class="textocomponentedestacado">Mini Tower</span>: PCs compactas. Poco comunes y necesitan que todos los componentes sean de perfil bajo.</p>
+                    <p><span class="textodestacado">Full tower</span>: para PCs (realmente) grandes, con muchos ventiladores. Generalmente usado para montar sistemas de refrigreración líquida personalizados.</p>
+                    <p><span class="textodestacado">Mid tower</span>: el formato más común. Tamaño y tamaño "normal".</p>
+                    <p><span class="textodestacado">Mini Tower</span>: PCs compactas. Poco comunes y necesitan que todos los componentes sean de perfil bajo.</p>
                     <p>El segundo criterio se basa en relación a la compatibilidad con distintos factores de forma de motherboards: E-ATX, ATX, Micro-ATX, Mini-ATX. Cabe recalcar que, en un gabinete más grande, entran los factores de forma menores.</p>
                     <p>En caso de utilizar refrigeración líquida, se debe corroborar que soporte el tamaño del radiador. </p>
                     <p>Un buen gabinete con materiales de calidad como acero o aleaciones de aluminio y extras como vidrio templado o iluminación RGB integrada, da una buena primer impresión y define la "carácter" de tu PC.</p>
+                    <p class="tipusado"><i class="fa-solid fa-leaf" style="color: #00ff00;"></i> Reusar gabinetes casi siempre es una buena idea si ha sido cuidado correctamente y no le faltan tornillos importantes.</p>
                 </div>
                 <button class="botonleermas" onclick="muestra_oculta('gabineteleermas')">Leer más</button>
                 </div>
@@ -266,6 +271,116 @@
         </div>  
     </div>
 
+    <div class="tablaclasificacion" id="tablaclasificacionlink">
+        <h1>Tablas de clasificación</h1>
+        <h2>Los armados mejor valorados del mes</h2>
+        
+        <div class="contenedorarmados" id="tablaclasificacion">
+            <div class="armado armadosegundopuesto">
+                <img src="imagenes/builds/buildreciclada.jpg" alt="Segundo Puesto">
+                <a href="#foro" class="usuario">martinpdisalvo</a>
+                <a href="#foro"><h3>Mi primer PC reciclando!!! Gracias mamá <3</h3></a>
+                <p>AMD Ryzen 5 5600<br>MSI Radeon RX 5600 XT</p>
+                <p class="precio"><span class="precioanterior">$1105</span>  <i class="fa-solid fa-leaf" style="color: #00ff00;"></i> <span class="tipusado">$605 por usados/recertificados</span></p>
+                <div class="interacciones">
+                    <span><i class="fa-regular fa-thumbs-up"></i> 750</span>
+                    <span><i class="fa-regular fa-comment"></i> 135</span>
+                </div>
+            </div>
+
+            <div class="armado armadoprimerpuesto">
+                <img src="imagenes/builds/buildmicroondas.jpg" alt="Primer Puesto">
+                <a href="#foro" class="usuario">fernanelcrack7</a>
+                <a href="#foro"><h3>EL MICRO</h3></a>
+                <p>Intel Core i7 4790K<br>GIGABYTE GTX 1070 Ti</p>
+                <p class="precio"><span class="precioanterior">$850</span>  <i class="fa-solid fa-leaf" style="color: #00ff00;"></i> <span class="tipusado">$405 por usados/recertificados</span></p>
+                <div class="interacciones">
+                    <span><i class="fa-regular fa-thumbs-up"></i> 1502</span>
+                    <span><i class="fa-regular fa-comment"></i> 251</span>
+                </div>
+            </div>
+
+            <div class="armado armadotercerpuesto">
+                <img src="imagenes/builds/micompujeje.jpg" alt="Tercer Puesto">
+                <a href="#foro" class="usuario">mastercookieuy</a>
+                <a href="#foro"><h3>Mi proyecto en desarrollo! Cougar Conquer</h3></a>
+                <p>Intel Core i5 12600K<br>MSI RTX 3090 Suprim X</p>
+                <p class="precio"><span class="precioanterior">$2410</span>  <i class="fa-solid fa-leaf" style="color: #00ff00;"></i> <span class="tipusado">$1705 por usados/recertificados</span></p>
+                <div class="interacciones">
+                    <span><i class="fa-regular fa-thumbs-up"></i> 551</span>
+                    <span><i class="fa-regular fa-comment"></i> 96</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="comoarmopc" id="comoarmopc">
+        <h1>¿Cómo armo mi PC?</h1>
+        <h2>Una de las mejores partes de tener una PC es aprender a armarla con tus propias manos</h2>
+        <div class="contenedorcomoarmopc">
+            <div class="textocomoarmopc">
+                <p>Armar tu propia computadora no es solo la parte técnica, sino que también te permite entender cada componente, optimizar tu presupuesto y personalizar cada detalle para que se adapte a vos.</p>
+                <p>Ver tu primer PC encender por primera vez y saber que la armaste por tu cuenta es una sensación única.<br>¡Invitá a un amigo a vivirlo juntos!</p>
+                <p>Este video de <span class="textodestacado">Sara's Tech</span> es una guía clara y completa sobre cómo ensamblar y darle vida a tu PC paso a paso. 
+                <p>Si te surgen dudas, podés consultarlas en el <a href="#foro" class="linkimportante"><span>foro</span></a>.</p></p>
+            </div>
+            <div class="videocomoarmopc">
+                <iframe width="840" height="473" src="https://www.youtube.com/embed/omrvbgiyyOQ?si=95FlaWasELYWjziT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="sostenibilidad" id="sostenibilidad">
+        <h1>Sostenibilidad</h1>
+        <h2>Reducí el <span class="eningles">e-waste</span> reutilizando componentes usados o reacondicionados y alargá su vida útil.</h2>
+
+        <div class="sostenibilidadcontenedor">
+            <div class="sostenibilidadtexto">
+                <h3>¿Qué es el e-waste?</h3>
+                <p>El <span class="verde">e-waste</span> son los residuos de aparatos eléctricos: computadoras, placas, cables, fuentes, monitores, etc., que termina en basurales o se exporta como chatarra, donde se queman o se desarma sin control, lo que libera sustancias peligrosas.</p>
+
+                <h3>¿Por qué es un problema?</h3>
+                <ul>
+                    <li><span class="verde">Contaminación:</span> hay metales pesados y químicos que afectan agua, suelo y aire.</li>
+                    <li><span class="verde">Desperdicio de recursos:</span> se descartan materiales valiosos, como cobre, aluminio u oro.</li>
+                    <li><span class="verde">La huella que deja fabricar componentes nuevos:</span> producir hardware nuevo consume muchos recursos finitos cuya extracción también suma a la contaminación.</li>
+                </ul>
+
+                <h3>¿Y qué puedo hacer hoy?</h3>
+                <ul>
+                    <li><span class="verde">Comprá usado o recertificado</span> cuando sea posible (CPU, GPU, RAM, gabinetes, fuente).</li>
+                    <li><span class="verde">Reutilizá</span> lo que ya tenés: gabinete, ventiladores, almacenamiento. Reciclá lo roto en puntos de recolección</li>
+                    <li><span class="verde">Doná o vendé</span> las partes que no uses en lugar de tirarlas. Publicalo en el <a href="#foro" class="linkimportante">foro</a>.</li>
+                </ul>
+
+                <h3>Guía rápida para comprar componentes usados</h3>
+                <ul>
+                    <li>Pedí fotos claras, fecha de compra y opcionalmente, motivo de venta.</li>
+                    <li>Probá que enciendan bien, sus temperaturas y estabilidad bajo carga alta prolongada (si podés, que sea en persona).</li>
+                    <li>Verificá el estado de pines y sockets, conectores y estado físico general.</li>
+                    <li>Guardá comprobantes o chats como respaldo.</li>
+                </ul>
+
+                <h3>¿Dónde despejo dudas?</h3>
+                <p>Publicá tu caso en el <a href="#foro" class="linkimportante">foro</a>, dando tu presupuesto, uso a dar, piezas que pensás comprar y fotos. La comunidad siempre es feliz de ayudar a elegir lo más conveniente y sostenible.</p>
+            </div>
+
+            <div class="sostenibilidadimg">
+                <img src="imagenes/extras/ewaste.png" alt="Residuos electrónicos o e-waste">
+            </div>
+        </div>
+    </div>
+
+    <div class="foro" id="foro">
+        <div class="forocontenido">
+            <h1>Foro de la comunidad</h1>
+            <h2>Compartí tus armados, pedí consejos y ayudá a otros a reducir el e-waste</h2>
+            <a href="#foro" class="boton">ENTRAR AL FORO</a>
+            <p class="footer">© Ian Franco, 2025. Un proyecto personal impulsado por DESEM Junior Achievement.</p>
+        </div>
+    </div>
+    
+    <script src="https://kit.fontawesome.com/0bba9c5b39.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
