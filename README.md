@@ -1,4 +1,5 @@
 ﻿# RIGMASTER - Construí tu (primer) setup gaming
+https://mastercookieuy.github.io/RIGMaster-ProyectoDESEM/
 RigMaster nace de una pasión que tengo desde chico: el hardware y las PCs para gaming.
 Desde siempre quise tener mi propia PC gamer, pero en aquel momento no tenía los recursos ni el conocimiento suficiente. No entendía temas de compatibilidad, gamas o marcas, y tampoco sabía por dónde empezar a aprender.
 
@@ -17,5 +18,6 @@ Para relacionarla con una temática relacionada a una problemática medioambient
 A la fecha hay algunos errores para corregir.
 La página (aún) NO es responsive :(
 LA MEJOR EXPERIENCIA SE DA EN UN DISPLAY CON RELACIÓN DE ASPECTO 16:9. A CORREGIR EN UN FUTURO
+
 
 
