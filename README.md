@@ -16,8 +16,15 @@ Para relacionarla con una temática relacionada a una problemática medioambient
 
 # IMPORTANTE - LEER
 A la fecha hay algunos errores para corregir.
+
 La página (aún) NO es responsive :(
-LA MEJOR EXPERIENCIA SE DA EN UN DISPLAY CON RELACIÓN DE ASPECTO 16:9. A CORREGIR EN UN FUTURO
+
+LA MEJOR EXPERIENCIA SE DA EN UN DISPLAY CON RELACIÓN DE ASPECTO 16:9 y con "animar los controles y elementos dentro de las ventanas" en los ajustes de apariencia y rendimiento en Windows activado (activado por defecto). A CORREGIR EN UN FUTURO
+
+Esta "documentación" está bastante mejorable
+
+
+
 
 
 
