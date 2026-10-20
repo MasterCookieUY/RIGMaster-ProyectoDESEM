@@ -1,10 +1,10 @@
 # RIGMaster
 
-**Desarrollo web, hardware y sostenibilidad.**
+**Hardware y sostenibilidad.**
 
 Sitio web educativo para quienes quieren conocer los componentes de una PC y dar sus primeros pasos en el armado de un equipo, con énfasis en la reutilización de hardware y la reducción de residuos electrónicos.
 
-[Ver el sitio](https://mastercookieuy.github.io/RIGMaster-ProyectoDESEM/) · [Perfil del autor](https://github.com/MasterCookieUY)
+[Ver el sitio](https://mastercookieuy.github.io/RIGMaster-ProyectoDESEM/)
 
 > Proyecto final del programa **Yo Puedo Programar**, de **DESEM Junior Achievement**, realizado en 2025. El trabajo recibió la distinción **«Página Dorada»** en la graduación del programa.
 
@@ -14,7 +14,7 @@ RIGMaster surge de mi interés por el hardware y de mi experiencia ayudando a ot
 
 El proyecto combina esa temática con un enfoque ambiental: aprovechar componentes usados o reacondicionados, extender la vida útil de los equipos y promover decisiones de consumo más conscientes.
 
-Se desarrolló como un **prototipo frontend** para aplicar los conocimientos del curso, con foco en el diseño de la interfaz, la organización de contenidos y la experiencia de navegación.
+Se desarrolló como un prototipo frontend para aplicar los conocimientos del curso, con foco en el diseño de la interfaz, la organización de contenidos y la experiencia de navegación.
 
 ## Contenido e interacciones
 
@@ -26,45 +26,32 @@ Se desarrolló como un **prototipo frontend** para aplicar los conocimientos del
 
 ## Tecnologías
 
-| Tecnología | Uso en el proyecto |
+| Herramientas usadas en el proyecto |
 | --- | --- |
-| HTML5 | Estructura de la página y organización del contenido. |
-| CSS3 | Estilos personalizados, maquetación con Flexbox, animaciones y transiciones. |
-| Bootstrap 5.3.0-alpha1 | Carrusel de componentes y clases de utilidad. |
-| JavaScript | Interacción básica para mostrar y ocultar información. |
-| Font Awesome | Iconos de la interfaz. |
-| GitHub Pages | Publicación del sitio estático. |
+| HTML | Estructura de la página y organización del contenido |
+| CSS | Estilos personalizados, maquetación con Flexbox, animaciones y transiciones |
+| Bootstrap | Carrusel de componentes y clases de utilidad |
+| JavaScript | Interacción básica para mostrar y ocultar información |
+| Font Awesome | Iconos de la interfaz |
+| GitHub Pages | Publicación |
 
 ## Alcance de esta versión
 
 El sitio es una demostración académica de frontend. Las secciones informativas y las interacciones descritas forman parte de la implementación actual.
 
-El **constructor de PC** y el **foro** se presentan como parte del concepto del producto y todavía no cuentan con funcionalidad propia. La clasificación de equipos utiliza contenido estático de demostración; no hay registro de usuarios, votaciones, publicaciones ni validación automática de compatibilidad. El proyecto no incluye backend ni base de datos.
+El constructor de PC y el foro se presentan como parte del concepto del producto y todavía no cuentan con funcionalidad propia. La clasificación de equipos utiliza contenido estático de demostración; no hay registro de usuarios, votaciones, publicaciones ni validación automática de compatibilidad. El proyecto no incluye backend ni base de datos.
 
 La versión actual está diseñada principalmente para **pantallas de escritorio**, con una presentación pensada para formato 16:9. La adaptación completa a teléfonos y tabletas queda pendiente.
 
-## Ejecución local
-
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/MasterCookieUY/RIGMaster-ProyectoDESEM.git
-   ```
-
-2. Abrir la carpeta `RIGMaster-ProyectoDESEM`.
-3. Abrir `index.html` en un navegador.
-
-No requiere instalar paquetes ni ejecutar un proceso de compilación. Se necesita conexión a internet para cargar Bootstrap, Font Awesome y el video de YouTube.
-
 ## Estructura del repositorio
 
-| Archivo o carpeta | Contenido |
+| Archivos |
 | --- | --- |
-| `index.html` | Página principal y secciones del sitio. |
-| `style.css` | Estilos, distribución de elementos y animaciones. |
-| `main.js` | Función para mostrar y ocultar contenido. |
-| `imagenes/` | Imágenes de componentes, equipos, logotipos y otros recursos visuales. |
-| `README.md` | Presentación y documentación del proyecto. |
+| `index.html` | Página principal y secciones del sitio |
+| `style.css` | Estilos, distribución de elementos y animaciones |
+| `main.js` | Función para mostrar y ocultar contenido |
+| `imagenes/` | Imágenes de componentes, equipos, logotipos y otros recursos visuales |
+| `README.md` | Presentación y documentación del proyecto |
 
 ## Posibles mejoras
 
@@ -73,7 +60,7 @@ No requiere instalar paquetes ni ejecutar un proceso de compilación. Se necesit
 - Optimizar las imágenes y la carga de recursos externos.
 - Ampliar el prototipo con un configurador de componentes y funciones de comunidad.
 
-## Autor y créditos
+## Créditos
 
 **Ian Franco** · [MasterCookieUY](https://github.com/MasterCookieUY)
 
