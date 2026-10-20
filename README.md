@@ -19,39 +19,39 @@ Se desarrolló como un prototipo frontend para aplicar los conocimientos del cur
 ## Contenido e interacciones
 
 - **Guía de componentes:** carrusel sobre procesador, tarjeta gráfica, memoria RAM, placa madre, almacenamiento, fuente de alimentación, refrigeración y gabinete, con información ampliable mediante botones «Leer más».
-- **Configuraciones destacadas:** galería con una clasificación visual de equipos y datos de ejemplo sobre componentes, precios e interacciones.
+- **Armados destacados:** galería con una clasificación visual de equipos y datos de ejemplo sobre sus componentes, precios e interacciones de la comunidad.
 - **Introducción al armado de PC:** contenido orientativo y un tutorial en video integrado desde YouTube.
 - **Sostenibilidad:** información sobre residuos electrónicos y pautas para reutilizar hardware y evaluar componentes de segunda mano.
-- **Navegación y presentación:** enlaces entre secciones, animaciones CSS, transiciones y una identidad visual inspirada en el mundo del gaming.
+- **Navegación y presentación:** enlaces entre secciones, animaciones con CSS y transiciones.
 
-## Tecnologías
+## Herramientas usadas
 
-| Herramientas usadas en el proyecto |
+| Herramienta | Uso en el proyecto |
 | --- | --- |
 | HTML | Estructura de la página y organización del contenido |
-| CSS | Estilos personalizados, maquetación con Flexbox, animaciones y transiciones |
+| CSS | Estilos personalizados, maquetación con Flex, animaciones y transiciones |
 | Bootstrap | Carrusel de componentes y clases de utilidad |
 | JavaScript | Interacción básica para mostrar y ocultar información |
 | Font Awesome | Iconos de la interfaz |
-| GitHub Pages | Publicación |
+| GitHub Pages | Publicación del sitio estático |
 
 ## Alcance de esta versión
 
-El sitio es una demostración académica de frontend. Las secciones informativas y las interacciones descritas forman parte de la implementación actual.
+El sitio es una demostración de frontend.
 
 El constructor de PC y el foro se presentan como parte del concepto del producto y todavía no cuentan con funcionalidad propia. La clasificación de equipos utiliza contenido estático de demostración; no hay registro de usuarios, votaciones, publicaciones ni validación automática de compatibilidad. El proyecto no incluye backend ni base de datos.
 
-La versión actual está diseñada principalmente para **pantallas de escritorio**, con una presentación pensada para formato 16:9. La adaptación completa a teléfonos y tabletas queda pendiente.
+La versión actual está diseñada principalmente para formato 16:9. La adaptación completa a otras relaciones de aspecto queda pendiente.
 
-## Estructura del repositorio
+## Estructura
 
-| Archivos |
+| Archivo | Contenido |
 | --- | --- |
-| `index.html` | Página principal y secciones del sitio |
-| `style.css` | Estilos, distribución de elementos y animaciones |
-| `main.js` | Función para mostrar y ocultar contenido |
-| `imagenes/` | Imágenes de componentes, equipos, logotipos y otros recursos visuales |
-| `README.md` | Presentación y documentación del proyecto |
+| `index.html` | Página principal y secciones del sitio. |
+| `style.css` | Estilos, distribución de elementos y animaciones. |
+| `main.js` | Función para mostrar y ocultar contenido. |
+| `imagenes/` | Imágenes de componentes, equipos, logotipos y otros recursos visuales. |
+| `README.md` | Presentación y documentación del proyecto. |
 
 ## Posibles mejoras
 
